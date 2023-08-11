@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing</title>
+</head>
+<body>
+    <h1>Kyle's Clothing</h1>
+    <br>
+    <br>
+    <div>
+        <img src="/media/fashion.jpg" alt="Missing Picture" width="150px">
+        <p>Brown Cardigan</p>
+        <img src="/media/pocketWatch.jpg" alt="Missing Picture" width="150px">
+        <p>Pocket Watch</p>
+        <img src="/media/womanFashion.jpg" alt="Missing Picture" width="150px">
+        <p>Black T</p>
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <th>Brown Cardigan</th>
+                <th>Pocket Watch</th>
+                <th>Black T</th>
+            </tr>
+            <tr>
+                <td>£20.99</td>
+                <td>£145.99</td>
+                <td>£7.99</td>
+            </tr>
+            <tr>
+                <td>Out of stock</td>
+                <td>4 left</td>
+                <td>16 left</td>
+            </tr>
+        </table>
+    </div>
+
+    <fieldset>
+        <legend>Order</legend>
+        <form>
+            <h2>Sandwiches</h2>
+            <p>All our sandwiches come accompanied with chips & green salad</p><br/>
+            <label for="sandwiches">Sandwich fliing</label>
+            <input type="text" id="sandwiches" placeholder="filling"/><br>
+            <h2>Drnks</h2>
+            <label for="drinks">Drinks</label>
+            <input type="text" id="drinks" placeholder="drinks"/><br>
+        </form>
+            <h2>Hot Drinks</h2>
+            <label for="milk">Do you require milk?</label><br>
+            <input type="radio" name="milk" value="no" id="no"/>
+            <label for="no">no</label><br>
+            <input type="radio" name="milk" value="yes" id="yes"/>
+            <label for="yes">yes</label><br/>
+            <input type="radio" name="milk" value="lactosefree" id="lactosefree"/>
+            <label for="lactosefree">Lactosefree</label></br>
+            <input type="radio" name="milk" value="coconut" id="coconut"/>
+            <label for="coconut">Coconut</label><br>
+            <input type="submit"><input type="reset">
+    </fieldset>
+
+    <textarea 
+    name="" 
+    id="" 
+    cols="30" 
+    rows="10" 
+    placeholder="Write Essay">
+    </textarea>
+
+    <fieldset style="background-color: rgb(127, 210, 255);">
+        <legend>Registration</legend>
+        <h2>Registration Details</h2>
+        <label for="university">University</label>
+        <input type="text" id="university"><br>
+        <label for="institution">institution</label>
+        <input type="text" id="institution"><br>
+        <label for="">Branch</label>
+        <select name="" id="">
+            <option value="">-- Select --</option>
+            <option value="UK">United Kingdom</option>
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+        </select><br>
+        <label for="degree">Degree</label>
+        <select name="degree" id="degre">
+            <option value="">-- Select --</option>
+            <option value="UK">United Kingdom</option>
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+        </select>
+        <label for="endDate">Completed</label>
+        <input type="radio" name="endDate" value="completed" id="completed">
+        <label for="endDate">Pursuing</label>
+        <input type="radio" name="endDate" value="pursuing" id="pursuing"><br>
+        <label for="CPI">Average CPI:</label>
+        <input type="number" name="CPI" id="CPI">
+        <label for="Upto">Upto</label>
+        <input type="number" name="Upto" id="Upto">
+        <label>Th Semester</label><br>
+        <label for="experience">Experience</label>
+        <input type="number" name="experience" id="experience">
+        <label> Years</label><br>
+        <label for="website">Your website or blog:</label>
+        <input type="url" name="website" id="website" placeholder="https://"><br>
+
+    </fieldset>
+</body>
+</html>
